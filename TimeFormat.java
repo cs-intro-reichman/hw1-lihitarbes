@@ -23,15 +23,18 @@ public class TimeFormat {
 			onedigit=Integer.toString(minutes);
 		}
 
-		if (hours <= 12) {
-
+		if (hours < 12) {
 			System.out.println(hours + ":" + onedigit + " AM");
 		}
-			
+       
+		if(hours == 12){
+			System.out.println(hours + ":" + onedigit + " PM");
+	   }
+
 		else{
+			
 			System.out.println(hours-12 + ":" + onedigit + " PM");
 		}
-
-
+      
 	}
 }
