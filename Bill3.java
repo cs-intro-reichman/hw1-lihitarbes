@@ -8,8 +8,8 @@ public class Bill3 {
 		int value = Integer.parseInt(args[3]);
 		double price = Math.ceil((double)value/3);
 
-		System.out.println("Change code Dear " + name3 + ", " + name2 + ", " + "and " + name1 + ": " + "pay " + price + " Shekels each" );
-			     
+		System.out.println("Dear " + name3 + ", " + name2 + ", " + "and " + name1 + ": " + "pay " + price + " Shekels each" );
+
 
 	}
 }

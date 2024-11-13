@@ -7,7 +7,7 @@ public class NumWords {
  int tens = Math.floorMod(numWord / 10,10);
  int hundreds = Math.floorMod( numWord/ 100, 10);
  
-	System.out.println(hundreds + " hundreds " + tens + " tens " + "and " + ones + " ones ");
+	System.out.println(hundreds + " hundreds " + ", " + tens +  " tens " + ", " + "and " + ones + " ones ");
 	}
 }
 
