@@ -31,10 +31,11 @@ public class TimeFormat {
 			System.out.println(hours + ":" + onedigit + " PM");
 	   }
 
-		else{
+		if(hours> 12){
+			System.out.println(hours-12 + ":" + onedigit + " PM");	
+		}
 			
-			System.out.println(hours-12 + ":" + onedigit + " PM");
 		}
       
 	}
-}
+ 
